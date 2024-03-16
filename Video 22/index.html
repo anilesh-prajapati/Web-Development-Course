@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing Units - px, rem, em, vh, vw, % & more </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 12px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 1400px; */
+            width: 80vw;
+            height: 10vh;
+            margin: auto;
+            background-color: aquamarine;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid blue;
+            width: 80vw;
+            /* height: 80vh; */
+            min-height: 80vh;
+            font-size: 18px;
+            margin: 25px auto;
+        }
+
+        .container > div {
+            font-size: 2em;
+            border: 2px solid black;
+            width: 50%;
+        }
+
+        .container > div > div{
+            border: 2px solid blueviolet;
+            width: 50%;
+        }
+
+        .mycont {
+            box-sizing: border-box;
+            margin: 25px auto;
+            border: 2px solid black;
+            background-color: antiquewhite;
+            color: brown;
+            font-size: 22px;
+            /* width: 100vmin; */
+            width: 80vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        This is a box
+    </div>
+
+    <div class="container">
+        <div>
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quis mollitia ratione cum pariatur,
+            quibusdam nisi? Optio adipisci mollitia voluptatibus voluptatum dicta ab?
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores inventore laborum sed quaerat dolorum
+                in facilis blanditiis. Fugiat labore esse, unde dolorem beatae minus autem perferendis neque? Dolorem,
+                debitis ipsa?</div>
+
+        </div>
+
+    </div>
+
+    <div class="mycont">
+        I am another container
+    </div>
+</body>
+
+</html>

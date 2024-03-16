@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox - Ultimate MasterClass</title>
+    <style>
+        .container {
+            border: 2px solid red;
+            display: flex;
+            height: 80vh;
+            /* justify-content: center; */
+            align-items: center;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+            /* flex-wrap: wrap-reverse; */
+            /* align-content: center; */
+            /* there is no justify-items:  in flexbox; */
+            /* flex-flow: row wrap-reverse; */
+            /* gap: 33px; */
+
+            /* row-gap: 44px;
+            column-gap: 10px; */
+            gap: 44px 1px;
+        }
+
+        .item {
+            /* flex-grow: 1; */
+            height: 92px;
+            width: 92px;
+            background-color: blueviolet;
+            border: 2px solid black;
+            /* margin: 22px; */
+
+
+        }
+        .order-1{
+            order: 1;
+        }
+        .order-2{
+            order: 2;
+        }
+        .order-3{
+            order: 3;
+        }
+        .item1{
+            /* flex-grow: 5; */
+            align-self: flex-end;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+
+        <div class="container">
+            <div class=" item item1">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item ">4</div>
+            
+           
+
+
+        </div>
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3 - Design this Card</title>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+        * {
+
+            margin: auto;
+            padding: 0;
+            background-color: rgb(234, 241, 248);
+            font-family: "Baloo 2", sans-serif;
+        }
+
+        .box {
+            background-color: white;
+            height: 490px;
+            width: 240px;
+            border: 2px solid rgb(208, 208, 223);
+            border-radius: 14px;
+
+
+        }
+
+        .image {
+            background-color: white;
+            margin: 9px;
+            width: 222px;
+            height: 156px;
+            border-radius: 10px;
+
+
+        }
+
+        .cap {
+            background-color: white;
+            margin-top: 10px;
+            margin-left: 13px;
+        }
+
+        .cap>span {
+            background-color: white;
+            border: 2px solid rgba(208, 208, 223, 0.509);
+            border-radius: 55px;
+            padding: 3px;
+            padding-left: 13px;
+            padding-right: 13px;
+
+            margin-left: 5px;
+            cursor: pointer;
+
+        }
+
+
+
+        button {
+            background-color: white;
+            border-radius: 55px;
+            padding: 10px;
+            padding-left: 18px;
+            padding-right: 18px;
+            border: 2px solid rgba(208, 208, 223, 0);
+            box-shadow: none;
+            color: rgb(19, 152, 240);
+            background-color: rgba(179, 212, 240, 0.267);
+            cursor: pointer;
+            font-size: 11px;
+            font-weight: 600;
+
+
+
+
+
+
+        }
+
+        .button {
+            background-color: white;
+            margin: 11px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border-color: rgb(208, 208, 223); */
+
+
+
+        }
+
+
+
+        .image img {
+            height: 100%;
+            width: 100%;
+
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        h1 {
+            background-color: white;
+            margin-left: 12px;
+            margin-top: 8px;
+            color: rgba(0, 0, 0, 0.794);
+
+
+        }
+
+        p {
+            background-color: white;
+            margin-left: 12px;
+            color: rgba(0, 0, 0, 0.686);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Card.png is a file which contains a card Image . Write html and css code to design this Card -->
+
+
+    <div class="box">
+        <div class="image">
+            <img src="https://www.industrialempathy.com/img/remote/ZiClJf-640w.avif" alt="">
+        </div>
+
+        <div class="cap">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <h1>Headline</h1>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illum, sequi fugiat, soluta cumque, omnis quasi magnam ipsa voluptatibus accusamus enim magni sint.
+        </p>
+
+        <span class="button"><button>Read More</button></span>
+
+    </div>
+</body>
+
+</html>

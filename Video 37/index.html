@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Exercise 5 - Design this Layout</title>
+    <style>
+        
+        body{
+            background-color: rgb(219, 205, 185)
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            position: sticky;
+            top: 0px;
+        }
+
+        nav ul {
+            background-color: rgb(222, 155, 234);
+            display: flex;
+            justify-content: space-around;
+            
+
+        }
+
+        nav ul li {
+            list-style-type: none;
+            padding: 36px;
+
+
+
+        }
+
+        .main {
+
+
+            background-color: green;
+            /* border: 2px solid black; */
+            height: 544px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .box1 {
+            display: inline-block;
+            background-color: palevioletred;
+            border: 2px solid black;
+            height: 444px;
+            width: 433px;
+            margin: 56px;
+        }
+
+        .box2 {
+            display: inline-block;
+            background-color: palevioletred;
+            border: 2px solid black;
+            height: 444px;
+            width: 433px;
+            margin: 56px;
+        }
+
+        .round {
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            background-color: aqua;
+            border: 2px solid blueviolet;
+            height: 126px;
+            margin-left: 75px;
+            margin-right: 75px;
+            border-radius: 73px;
+            margin-top: -22px;
+            font-size: 33px;
+        }
+
+        .paraa{
+            text-align: center;
+            align-items: center;
+            padding: 222px;
+            
+        }
+
+        .footter{
+            background-color: blueviolet;
+            height: 133px;
+            margin-top: 82px;
+        }
+
+        .circle{
+            background-color: red;
+            display: flex;
+            border: 2px solid black;
+            height: 60px;
+            width: 60px;
+            float: right;
+            position: fixed;
+            bottom: 53px;
+            right: 17px;
+
+            
+            
+          
+            border-radius: 444px;
+            
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Content</li>
+                <li>Content</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main">
+            <span class="box1">
+
+
+            </span>
+            <span class="box2">
+
+            </span>
+        </div>
+        <div class="round">
+            <p class="paraa">Welcome To This Web
+                Development Express
+            </p>
+        </div>
+        <div class="circle">
+
+        </div>
+    </main>
+
+    <footer >
+        <div class="footter">
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

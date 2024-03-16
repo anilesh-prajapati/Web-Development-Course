@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>46- CSS Animations</title>
+    <style>
+        .container {
+
+            background-color: aqua;
+            height: 80vh;
+            width: 70vw;
+
+
+        }
+
+        .box {
+
+            width: 90px;
+            height: 90px;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            /* animation-name: anniKaAnimation;
+            animation-duration: 3s; */
+            /* animation-iteration-count: 3; */
+            /* animation-iteration-count: infinite; */
+            /* animation-timing-function: ease-in; */
+            /* animation-timing-function: cubic-bezier(0, 0, 0, 0.96);
+           animation-delay: 1s;
+           animation-direction: alternate-reverse;
+           animation-play-state: paused; */
+
+            /* Animation Sorthand  */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: anniKaAnimation 3s ease-in-out 1s 3,
+                       anni 3s ease-in-out 1s 3  ;
+
+        }
+
+        @keyframes anniKaAnimation {
+            from {
+                background-color: red;
+            }
+
+            to {
+                background-color: rebeccapurple;
+                transform: translateX(800px);
+            }
+        }
+
+        @keyframes anni {
+            0%{
+transform: rotate(100deg);
+            }
+            20%{
+                transform: rotate(200deg);
+            }
+            50%{
+                transform: rotate(300deg);
+            }
+            80%{
+                transform: rotate(400deg);
+            }
+            100%{
+                transform: rotate(50%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box">
+            BOX
+        </div>
+    </div>
+
+</body>
+
+</html>
