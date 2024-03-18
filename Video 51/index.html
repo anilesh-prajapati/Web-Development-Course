@@ -4,38 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .container {
+    <title>51- Exercise 8- Solution</title>
 
+    <style>
+        .box {
+            height: 99px;
+            width: 99px;
+            background-color: red;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            border-radius: 60px;
+            animation: animationx 3s linear infinite,
+                animationy 1s ease-out infinite alternate;
+            
+
+        }
+
+        .container {
             position: relative;
-            height: 80vh;
-            width: 80vw;
+            height: 444px;
+            width: 888px;
             background-color: blue;
         }
 
-        .box {
-            height: 88px;
-            width: 88px;
-            background-color: red;
-            border-radius: 70px;
-            position: absolute;
-            bottom: 0px;
-            left: 0px;
-
-
-            animation: animation-y 1s ease-out infinite 1s alternate,
-                animation-x 3s linear infinite ;
-
-
-
-        }
-
-
-
-
-        @keyframes animation-x {
-
+        @keyframes animationx {
             from {
                 left: 0%;
             }
@@ -45,19 +38,14 @@
             }
         }
 
-        @keyframes animation-y {
-
+        @keyframes animationy {
             from {
                 bottom: 0%;
             }
 
             to {
-                bottom: 100%;
+                bottom: 70%;
             }
-
-
-
-
         }
     </style>
 </head>

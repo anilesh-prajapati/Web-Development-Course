@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50- CSS Filters</title>
+
+    <style>
+        .image1{
+            /* filter: blur(2px); */
+            filter: opacity(0.3);
+        }
+        .image2{
+            filter: brightness(150%) contrast(300%);
+            /* filter: invert(1); */
+        }
+        .image3{
+            filter: grayscale(200%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="image1" src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Akshay_Kumar.jpg" alt="">
+
+        <img class="image2" src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Ranbir_Kapoor_promoting_Brahmastra.jpg" alt="">
+
+        <img class="image3" src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=996&t=st=1710784259~exp=1710784859~hmac=40f657be4ee99aa7fc435e15fd390ce9b28c6b4410965580283a3cd9747d19d3" alt="">
+    </div>
+</body>
+</html>
