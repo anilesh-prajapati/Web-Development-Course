@@ -180,7 +180,7 @@ body {
 }
 
 .first-section {
-    height: 379px;
+    height: 470px;
     width: 80vw;
     display: flex;
     margin: auto;
@@ -190,14 +190,14 @@ body {
 
 }
 
-video {
-    /* height: 100%;
-    width: 100%; */
+.video {
+    height: 100%;
+    /* width: 100%; */
 }
 
 .first-section img {
 
-    width: 506px;
+    width: 495px;
     position: absolute;
     z-index: 10;
 
@@ -205,11 +205,11 @@ video {
 
 .first-section video {
     position: relative;
-    /* top: 80px;
-    
-    left: 84px; */
+    top: 71px;
+    left: 69px;
+    right: 33px;
+    width: 411px;
 }
-
 
 .first-section h1 {
     font-size: 48px;
