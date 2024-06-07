@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>71-Inserting and Removing Elements using JavaScript </title>
+    <style>
+        .box{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container red bggreen">
+        <div class="box" style="display: flex;" data-createdby="Anni" data-conceptby="Ravi">Hey I am box</div>
+        <div class="box">Hey I am box</div>
+    </div>
+
+
+    <script>
+
+        // document.querySelector(".box")
+
+        // document.querySelector(".box").innerHTML
+
+        // document.querySelector(".container").innerHTML
+
+        // document.querySelector(".box").innerText
+
+        // document.querySelector(".container").innerText
+
+        // document.querySelector(".container").outerHTML
+
+
+        // document.querySelector(".container").tagName
+
+        // document.querySelector(".container").nodeName
+
+
+        // document.querySelector(".container").textContent
+
+        // document.querySelector(".container").hidden 
+
+        // document.querySelector(".container").hidden = true
+
+        // document.querySelector(".box").innerHTML = "Hey I am Anni"
+
+
+
+        // document.querySelector(".box").innerHTML = "Hey I am Anni"
+
+        // document.querySelector(".box").attributes
+
+        // document.querySelector(".box").hasAttribute("style")
+
+
+
+
+        // document.querySelector(".box").getAttribute("style")
+
+
+        // document.querySelector(".box").setAttribute("style", "display : inline")
+
+
+        // document.querySelector(".box").removeAttribute("style")
+
+        // document.querySelector(".box").dataset
+
+
+        // let div = document.createElement("div");
+        // div.innerHTML = " I have inserted <b>by Anni </b>"
+        // div.setAttribute("class", "created");
+        // document.querySelector(".container").append(div)
+        // document.querySelector(".container").before(div)
+
+        let cont = document.querySelector(".container")
+        cont.insertAdjacentHTML("beforebegin", "<b> Hey I am Good Boy")
+
+        // document.querySelector(".box").remove()
+
+        // document.querySelector(".container").classList
+
+        // document.querySelector(".container").className
+
+        // document.querySelector(".container").classList.add("Anni")
+
+        // document.querySelector(".container").classList.remove("red")
+
+        // document.querySelector(".container").classList.toggle("red")
+
+
+    </script>
+</body>
+
+</html>
